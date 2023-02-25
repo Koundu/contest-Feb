@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.caurosel{
+    flex-direction: column;
+    align-content: center;
+    padding:150px;
+    padding-top: 0px;
+    padding-bottom:20px ;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.card-group{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+.card{
+     padding: 15px;
+     padding-right: 20px;
+    border-radius: 20px;
+}
+
+.Form{
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+#msg{
+    width: auto;
+    height: 200px;
+}
+.table{
+    padding: 150px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 600px) {
+#h2{
+    font-size: xx-small;
+    padding-left: 0%;
+    padding-top: 0px;
+}
+#carouselExampleControls{
+    width: 320px;
+    height: 300px;
+}
+
+}
